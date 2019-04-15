@@ -10,5 +10,11 @@ function App() {
   );
 }
 
+/* uncomment me to pull core-js polyfills in via babel-preset-env + useBuiltIns: usage */
+/*
+const arr = Array.from("foo");
+console.log(arr);
+*/
+
 /* eslint-disable react/jsx-filename-extension */
 ReactDOM.render(<App />, document.getElementById("root"));
